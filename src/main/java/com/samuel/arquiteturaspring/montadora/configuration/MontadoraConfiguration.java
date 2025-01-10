@@ -1,7 +1,7 @@
 package com.samuel.arquiteturaspring.montadora.configuration;
 
-import com.samuel.arquiteturaspring.montadora.Motor;
-import com.samuel.arquiteturaspring.montadora.TipoMotor;
+import com.samuel.arquiteturaspring.montadora.montadora.Motor;
+import com.samuel.arquiteturaspring.montadora.montadora.TipoMotor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;

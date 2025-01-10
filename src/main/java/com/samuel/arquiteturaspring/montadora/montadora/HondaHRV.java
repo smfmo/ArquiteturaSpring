@@ -1,4 +1,4 @@
-package com.samuel.arquiteturaspring.montadora;
+package com.samuel.arquiteturaspring.montadora.montadora;
 
 import java.awt.*;
 

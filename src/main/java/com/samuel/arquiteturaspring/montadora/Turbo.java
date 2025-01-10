@@ -1,4 +1,4 @@
-package com.samuel.arquiteturaspring;
+package com.samuel.arquiteturaspring.montadora;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 

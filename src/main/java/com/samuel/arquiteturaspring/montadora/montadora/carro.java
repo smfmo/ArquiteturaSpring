@@ -1,6 +1,4 @@
-package com.samuel.arquiteturaspring.montadora;
-
-import com.samuel.arquiteturaspring.montadora.montadora.CarroStatus;
+package com.samuel.arquiteturaspring.montadora.montadora;
 
 import java.awt.*;
 

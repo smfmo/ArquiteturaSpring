@@ -1,4 +1,4 @@
-package com.samuel.arquiteturaspring;
+package com.samuel.arquiteturaspring.montadora;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 
@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.FIELD, ElementType.METHOD})
-@Qualifier("motorAspirado")
-public @interface Aspirado {
+@Qualifier("motorEletrico")
+public @interface Eletrico {
 
 }
