@@ -6,14 +6,18 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("todos")
 public class TodoController {
 
+    //atributo
     private TodoServices service;
 
-    public TodoController(TodoServices service) {
-        this.service = service;
-    }
-
+    //método salvar
     @PostMapping
     public TodoEntity salvar(@RequestBody TodoEntity todo){
         return this.service.salvar(todo);
     }
+
+    //construtor
+    public TodoController(TodoServices service) {
+        this.service = service;
+    }
+
 }

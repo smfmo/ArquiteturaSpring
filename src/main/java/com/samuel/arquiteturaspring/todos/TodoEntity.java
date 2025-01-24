@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 @Entity
 @Table(name = "tb_todo")
 public class TodoEntity {
-
+    //atributos
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -17,6 +17,8 @@ public class TodoEntity {
     @Column(name = "fl_concluido")
     private Boolean concluido;
 
+
+    //métodos getters e setters
     public Integer getId() {
         return id;
     }

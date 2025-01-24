@@ -1,6 +1,6 @@
 package com.samuel.arquiteturaspring.montadora.api;
 
-import com.samuel.arquiteturaspring.montadora.Turbo;
+import com.samuel.arquiteturaspring.montadora.montadora.Turbo;
 import com.samuel.arquiteturaspring.montadora.montadora.HondaHRV;
 import com.samuel.arquiteturaspring.montadora.montadora.Motor;
 import com.samuel.arquiteturaspring.montadora.montadora.Chave;
