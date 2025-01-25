@@ -12,6 +12,17 @@ public class TodoServices { //camada lógica
         return repository.save(newTodo);
     }
 
+    //atualizar Status
+    public void atualizarStatus(TodoEntity todo){
+        repository.save(todo);
+    }
+
+    //buscar os dados pelo id
+    public TodoEntity buscarPorId(Integer id){
+        return repository.findById(id).orElse(null);
+    }
+
+
     //construtor
     public TodoServices(TodoRepository repository){
         this.repository = repository;
